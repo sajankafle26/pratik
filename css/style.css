@@ -1,0 +1,140 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body 
+{
+    background: #F1F1F1;
+}
+ul 
+{
+    list-style: none;
+}
+a 
+{
+    text-decoration: none;
+}
+.con 
+{
+    max-width: 1200px;
+    margin: auto;
+}
+.top
+{
+    background: #333333;
+    line-height: 45px;
+    color: #fff;
+}
+.grid 
+{
+    display: grid;
+    justify-content: space-between;
+  
+}
+.g2 
+{
+    grid-template-columns: auto auto;
+}
+.top ul li 
+{
+    display: inline;
+    padding: 4px 8px;
+}
+.w-100
+{
+    width: 100%;
+    margin: 10px 0;
+}
+.g3 
+{
+    grid-template-columns: auto auto auto;
+}
+.topnav li 
+{
+    display: inline;
+    padding: 20px;
+}
+.form-box 
+{
+    background: #ededed;
+    border: 1px solid #999;
+    padding: 15px;
+    border-radius: 30px;
+    width: 320px;
+}
+.btn 
+{
+    background: brown;
+    color: #fff;
+    padding: 15px 25px;
+    border-radius: 40px;
+    margin-left: 20px;
+}
+.btn1 
+{
+    position: relative;
+    right: 30px;
+}
+.mainnav
+{
+    border-top: 2px solid #999;
+    border-bottom: 2px solid #999;
+    background: #fff;
+}
+.mainnav li 
+{
+    display: inline-block;
+    padding: 15px;
+}
+header 
+{
+    padding: 20px 0;
+    background: #fff;
+}
+.w 
+{
+    background: #fff;
+}
+.banner
+{
+    background: #fff;
+    box-shadow: 0px 5px 5px #ccc;
+    margin: 25px auto;
+    border-top: 3px solid brown;
+    text-align: center;
+    padding: 30px;
+}
+.banner h1 
+{
+    font-size: 55px;
+}
+.title 
+{
+    background: brown;
+    color: #fff;
+    padding: 20px;
+    border-radius: 0 25px 25px 0;
+    margin: 10px 0;
+}
+.block1_left, .block1_right
+{
+    border-top: 4px solid brown;
+}
+.p-3
+{
+    padding: 10px;
+}
+.block1_right img 
+{
+    width: 100px;
+}
+.gap 
+{
+    gap:20px
+}
+.block1_right .g2 
+{
+    margin: 10px 0;
+}

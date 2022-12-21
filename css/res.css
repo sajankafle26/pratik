@@ -1,0 +1,6 @@
+@media(max-width: 480px)
+{
+    .g2{ grid-template-columns: 100%; text-align: center;}
+    .banner img{ width: 100%;}
+    .g3{ grid-template-columns: 100%;}
+}
